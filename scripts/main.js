@@ -1,6 +1,8 @@
 var timer = document.getElementById('timer');
 var toggleBtn = document.getElementById('toggle');
 var resetBtn = document.getElementById('reset');
+var lapBtn = document.getElementById('lap');
+var clearLapBtn = document.getElementById('clear-lap');
 
 var watch = new Stopwatch(timer);
 
@@ -23,4 +25,14 @@ toggleBtn.addEventListener('click', function(){
 
 resetBtn.addEventListener('click', function(){
     watch.reset();
+  
+});
+
+lapBtn.addEventListener('click', function(){
+  watch.lap();
+  
+});
+
+clearLapBtn.addEventListener('click', function(){
+  watch.clearLaps();
 });

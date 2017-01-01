@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body{
     text-align: center;
     width:800px;
     margin: 0 auto;
+    font-family: 'Open sans'
+}
+button{
+  width:80px;
+  height:30px;
+}
+.lap-display{
+  width:170px;
+  margin:0 auto;
+}
+ul{
+  list-style:decimal;
 }
